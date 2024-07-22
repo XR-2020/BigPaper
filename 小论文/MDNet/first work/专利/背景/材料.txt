@@ -1,0 +1,11 @@
+基于深度学习的结肠息肉检测方法[18-21]
+目前息肉的检测工作多为结肠息肉的检测[26,27]
+为了解决上述问题，本文提出了特征融合提取模块，并将该模块与YOLOv3网络相结合[38]。在传统的
+
+
+
+1.只用弱标注的重要性The ability of learning from weak annotations is very important for two reasons: first, image understanding aims at learning an growing body of complex visual concepts (e.g. hundred thousands object categories in ImageNet). Second, CNN training is data-hungry. Therefore,being able to learn complex concepts using only light supervision can reduce significantly the cost of data annotation in tasks such as image segmentation, image captioning, or object detection
+2.选用cnn来做特征提取层的原因We are motivated in our research by the hypothesis that,since pre-trained CNNs generalise so well to a large number of tasks, they should contain meaningful representations of the data. For example, there exists evidence that CNNs trained for image classification learn proxies to ob�jects and objects parts. Remarkably, these concepts are acquired implicitly, without ever providing the network
+with information about the location of such structures in images. Hence, CNNs trained for image classification may already contain implicitly most of the information required to perform object detection.
+3.WSDDN速度不错:Since the system can be trained end-to-end using standard CNN packages, it is also
+as efficient as the recent fully-supervised Fast R-CNN detector of Girshick
